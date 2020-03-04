@@ -10,7 +10,7 @@
 
 	<!-- 扫描器 -->
 	<context:component-scan
-		base-package="com.lixinyu.hgshop.controller" />
+		base-package="com.lixinyu.hgshop.controller,com.lixinyu.hgshop.config" />
 	<!-- 视图解析图 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

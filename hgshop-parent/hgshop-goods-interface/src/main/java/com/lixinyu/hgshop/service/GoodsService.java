@@ -11,9 +11,9 @@ import com.lixinyu.hgshop.pojo.Category;
  * @author zhuzg
  *  
  *  **** Dubbo 服务接口函数比要有非Void 的返回值********
- *  
+ *   
  */
-public interface GoodsService {
+public interface GoodsService { 
 	
 	int addBrand(Brand brand);
 	int updateBrand(Brand brand);

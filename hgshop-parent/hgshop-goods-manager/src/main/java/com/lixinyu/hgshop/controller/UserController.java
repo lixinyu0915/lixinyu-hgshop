@@ -1,14 +1,16 @@
 package com.lixinyu.hgshop.controller;
 
+
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.lixinyu.hgshop.service.UserService;
 
-@Controller
+@Controller 
 public class UserController {
 	
+	 
 	
 	@Reference(timeout=2000,version="1.0.0")
 	UserService userService;

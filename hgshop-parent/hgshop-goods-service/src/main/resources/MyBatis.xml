@@ -5,15 +5,15 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 <configuration>
 
 <settings>
-	<!-- 表字段下划线与实体类属性驼峰标识的映射 -->
+	<!-- 表字段下划线与实体类属性驼峰标识的映射  parent_id  parentId --> 
 	<setting name="mapUnderscoreToCamelCase" value="true"/>
 </settings>
 
 <!-- 别名配置 -->
-<!--  <typeAliases>
-   <package name="com.bawei.hgshop.pojo"/>
+ <typeAliases>
+   <package name="com.lixinyu.hgshop.pojo"/>
  </typeAliases>
-  -->
+
  
  <!-- 配置分页助手拦截器 -->
 <plugins>

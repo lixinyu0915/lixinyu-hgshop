@@ -8,7 +8,7 @@ import java.io.Serializable;
 public class Brand implements Serializable{
 	
 	
-	/**
+	/** 
 	 * 
 	 */
 	private static final long serialVersionUID = -4399728115868769014L;
