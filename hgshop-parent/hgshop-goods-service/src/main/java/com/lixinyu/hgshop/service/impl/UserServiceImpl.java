@@ -1,7 +1,5 @@
 package com.lixinyu.hgshop.service.impl;
 
-import javax.annotation.Resource;
-
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -10,14 +8,14 @@ import com.lixinyu.hgshop.service.UserService;
 
 /**
  * 
- * @author 
+ * @author zhuzg
  *
  */
 @Service(interfaceClass=UserService.class,version="1.0.0")
 public class UserServiceImpl implements UserService{
 	
 	// 得到管理员的信息
-	@Resource
+	@Autowired
 	AdminProperties adminPro;
 
 	@Override

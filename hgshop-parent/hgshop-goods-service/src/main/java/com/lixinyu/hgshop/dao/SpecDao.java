@@ -7,12 +7,12 @@ import com.lixinyu.hgshop.pojo.SpecOption;
 
 /**
  * 
- * @author 
+ * @author zhuzg
  *
  */
 public interface SpecDao {
 
-	List<Spec> list(String name);
+	List<Spec> list( String name);
 
 	int addSpec(Spec spec);
 
